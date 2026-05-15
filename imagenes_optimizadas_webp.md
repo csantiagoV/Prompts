@@ -375,3 +375,196 @@ Construir software que:
 * sea usable para personas no técnicas
 * tenga excelente performance REAL
 * mantenga una arquitectura frontend limpia y escalable
+
+
+# UI SYSTEM Y DESIGN SYSTEM
+
+Construir la interfaz usando un sistema visual consistente, moderno y reutilizable.
+
+Priorizar SIEMPRE:
+
+* SVG
+* CSS moderno
+* componentes reutilizables
+* diseño limpio
+* mobile-first
+* performance extrema
+
+---
+
+# ICONOS
+
+Usar exclusivamente librerías SVG modernas y livianas:
+
+Prioridad:
+
+1. lucide-react
+2. tabler-icons
+3. heroicons
+
+Evitar:
+
+* Font Awesome pesado
+* iconos PNG
+* imágenes raster para iconografía
+
+Los iconos deben renderizarse como SVG reales.
+
+---
+
+# COMPONENTES VISUALES
+
+Todos los módulos deben construirse usando componentes reutilizables:
+
+Ejemplos:
+
+* ModuleCard
+* ModuleIcon
+* StatsCard
+* ActionButton
+* MobileListCard
+* FloatingChatButton
+
+Evitar código duplicado.
+
+---
+
+# ESTILO VISUAL
+
+La apariencia premium debe venir principalmente de:
+
+* gradients CSS
+* sombras suaves
+* glassmorphism ligero
+* bordes translúcidos
+* spacing moderno
+* jerarquía tipográfica
+* microinteracciones suaves
+
+NO depender de imágenes pesadas.
+
+---
+
+# ICON CONTAINERS
+
+Los iconos deben mostrarse dentro de contenedores modernos:
+
+Ejemplo visual:
+
+* círculo degradado
+* glow suave
+* sombras ligeras
+* SVG centrado
+
+Construir esto usando:
+
+* CSS gradients
+* box-shadow
+* border-radius
+* backdrop-filter ligero si es necesario
+
+NO usar imágenes PNG para fondos o iconos.
+
+---
+
+# TARJETAS
+
+Las tarjetas deben:
+
+* tener bordes redondeados modernos
+* usar gradients suaves
+* tener profundidad visual ligera
+* evitar sombras exageradas
+* verse limpias y premium
+
+Evitar:
+
+* estilos antiguos tipo Bootstrap clásico
+* tablas pesadas
+* bordes grises tradicionales
+
+---
+
+# LISTAS EN MÓVIL
+
+Para resultados y registros:
+
+NO usar tablas complejas en móvil.
+
+Convertir filas en:
+
+* cards verticales
+* bloques fáciles de leer
+* diseño touch-friendly
+
+---
+
+# BOTONES
+
+Los botones deben:
+
+* verse modernos
+* tener buen tamaño táctil
+* usar hover/press states suaves
+* evitar estilos viejos tipo HTML clásico
+
+---
+
+# COLORES
+
+Usar paletas modernas:
+
+Modo oscuro:
+
+* azul oscuro profundo
+* cyan suave
+* verde premium
+* amarillo cálido
+* morado elegante
+
+Evitar:
+
+* negro puro
+* saturación excesiva
+* demasiados colores simultáneos
+
+---
+
+# ANIMACIONES
+
+Todas las animaciones deben:
+
+* ser suaves
+* durar 150ms–300ms
+* usar transform + opacity
+* usar GPU acceleration
+
+Evitar:
+
+* animaciones pesadas
+* rebotes exagerados
+* efectos distractores
+
+---
+
+# EXPERIENCIA VISUAL
+
+La interfaz debe sentirse:
+
+* moderna
+* elegante
+* rápida
+* limpia
+* premium
+* intuitiva
+* usable para personas no técnicas
+
+Inspiración:
+
+* Linear
+* Stripe
+* Apple
+* Vercel
+* Notion
+* Uber
+* apps móviles premium modernas
